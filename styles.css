@@ -5,6 +5,7 @@ body {
   font-family: Roboto, sans-serif;
   text-align: center;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -19,6 +20,12 @@ body {
   border-radius: 20px;
   box-shadow: 0 0 0px 2px #e2ebf0;
 }
+@media (max-height: 1000px) {
+  .container {
+    min-height: 68vh;
+  }
+}
+
 .container img {
   width: 100%;
   border-radius: 20px;
